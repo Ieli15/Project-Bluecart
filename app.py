@@ -1,6 +1,6 @@
 import os
 import logging
-from flask import Flask
+from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import DeclarativeBase
 from flask_cors import CORS
@@ -54,3 +54,11 @@ from api import api_bp
 
 app.register_blueprint(auth_bp)
 app.register_blueprint(api_bp)
+
+# Simple route to verify API is running
+@app.route('/')
+def index():
+    return jsonify({
+        "message": "ShopCrawl API is running",
+        "status": "success"
+    })

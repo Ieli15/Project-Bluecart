@@ -20,7 +20,7 @@ const Header = () => {
           <div className="logo">
             <Link to="/">
               <i className="fas fa-shopping-cart"></i>
-              <span>Blue Cart</span>
+              <span>ShopCrawl</span>
             </Link>
           </div>
           
