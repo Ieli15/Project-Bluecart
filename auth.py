@@ -18,56 +18,58 @@ EMAIL_REGEX = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
 # Add a log to confirm app context during the request
 @auth_bp.route('/api/auth/register', methods=['POST'])
 def register():
-    if not current_app:  # Check if app context is active
-        current_app.logger.error("App context is not active during register request")
-        return jsonify({"error": "App context is not active"}), 500
+    try:
+        with current_app.app_context():  # Ensure app context is active
+            current_app.logger.info("App context is active during register request")
+            current_app.logger.debug(f"DB instance: {db}")
+            data = request.get_json()
 
-    current_app.logger.info("App context is active during register request")
-    data = request.get_json()
-    
-    # Validate inputs
-    if not all(k in data for k in ('username', 'email', 'password')):
-        return jsonify({"error": "Missing required fields"}), 400
-    
-    # Validate email format
-    if not re.match(EMAIL_REGEX, data['email']):
-        return jsonify({"error": "Invalid email format"}), 400
-    
-    # Validate password strength
-    if len(data['password']) < 8:
-        return jsonify({"error": "Password must be at least 8 characters long"}), 400
-    
-    # Check if user already exists
-    if User.query.filter_by(email=data['email']).first():
-        return jsonify({"error": "Email already registered"}), 409
-    
-    if User.query.filter_by(username=data['username']).first():
-        return jsonify({"error": "Username already taken"}), 409
-    
-    # Create new user
-    new_user = User(
-        username=data['username'],
-        email=data['email']
-    )
-    new_user.set_password(data['password'])
-    
-    db.session.add(new_user)
-    db.session.commit()
-    
-    # Generate tokens
-    access_token = create_access_token(identity=new_user.id)
-    refresh_token = create_refresh_token(identity=new_user.id)
-    
-    return jsonify({
-        "message": "User registered successfully",
-        "user": {
-            "id": new_user.id,
-            "username": new_user.username,
-            "email": new_user.email
-        },
-        "access_token": access_token,
-        "refresh_token": refresh_token
-    }), 201
+            # Validate inputs
+            if not all(k in data for k in ('username', 'email', 'password')):
+                return jsonify({"error": "Missing required fields"}), 400
+
+            # Validate email format
+            if not re.match(EMAIL_REGEX, data['email']):
+                return jsonify({"error": "Invalid email format"}), 400
+
+            # Validate password strength
+            if len(data['password']) < 8:
+                return jsonify({"error": "Password must be at least 8 characters long"}), 400
+
+            # Check if user already exists
+            if User.query.filter_by(email=data['email']).first():
+                return jsonify({"error": "Email already registered"}), 409
+
+            if User.query.filter_by(username=data['username']).first():
+                return jsonify({"error": "Username already taken"}), 409
+
+            # Create new user
+            new_user = User(
+                username=data['username'],
+                email=data['email']
+            )
+            new_user.set_password(data['password'])
+
+            db.session.add(new_user)
+            db.session.commit()
+
+            # Generate tokens
+            access_token = create_access_token(identity=new_user.id)
+            refresh_token = create_refresh_token(identity=new_user.id)
+
+            return jsonify({
+                "message": "User registered successfully",
+                "user": {
+                    "id": new_user.id,
+                    "username": new_user.username,
+                    "email": new_user.email
+                },
+                "access_token": access_token,
+                "refresh_token": refresh_token
+            }), 201
+    except Exception as e:
+        current_app.logger.error(f"Error during register request: {e}")
+        return jsonify({"error": "Internal server error", "details": str(e)}), 500
 
 @auth_bp.route('/api/auth/login', methods=['POST'])
 def login():
