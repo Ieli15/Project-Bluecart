@@ -19,7 +19,7 @@ const SearchBar = ({ homepage = false }) => {
       const token = localStorage.getItem('token');
       const headers = token ? { Authorization: `Bearer ${token}` } : {};
       
-      const response = await fetch(`http://localhost:8000/api/search?query=${encodeURIComponent(query)}`, {
+      const response = await fetch(`http://localhost:5000/api/search?query=${encodeURIComponent(query)}`, {
         headers
       });
       

@@ -1,5 +1,5 @@
-from flask import Blueprint, request, jsonify
-from models import db, User
+from flask import Blueprint, request, jsonify, current_app
+from models import User
 from werkzeug.security import generate_password_hash
 from flask_jwt_extended import (
     create_access_token,
@@ -8,14 +8,21 @@ from flask_jwt_extended import (
     get_jwt_identity
 )
 import re
+from extensions import db
 
 auth_bp = Blueprint('auth', __name__)
 
 # Email validation regex
 EMAIL_REGEX = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
 
+# Add a log to confirm app context during the request
 @auth_bp.route('/api/auth/register', methods=['POST'])
 def register():
+    if not current_app:  # Check if app context is active
+        current_app.logger.error("App context is not active during register request")
+        return jsonify({"error": "App context is not active"}), 500
+
+    current_app.logger.info("App context is active during register request")
     data = request.get_json()
     
     # Validate inputs

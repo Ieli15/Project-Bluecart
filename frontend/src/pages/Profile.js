@@ -64,7 +64,7 @@ const Profile = () => {
       // Only make API call if there are changes
       if (Object.keys(updateData).length > 0) {
         const token = localStorage.getItem('token');
-        const response = await fetch('http://localhost:8000/api/profile', {
+        const response = await fetch('http://localhost:5000/api/profile', {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',

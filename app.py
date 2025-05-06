@@ -6,6 +6,7 @@ from sqlalchemy.orm import DeclarativeBase
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 from werkzeug.middleware.proxy_fix import ProxyFix
+from extensions import db, jwt
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
@@ -34,8 +35,10 @@ app.config["JWT_ACCESS_TOKEN_EXPIRES"] = 3600  # 1 hour
 app.config["JWT_REFRESH_TOKEN_EXPIRES"] = 2592000  # 30 days
 
 # Initialize extensions
+# Add a log to confirm db.init_app is called
+logging.debug("Initializing SQLAlchemy with Flask app")
 db.init_app(app)
-jwt = JWTManager(app)
+jwt.init_app(app)
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 # Create database tables
@@ -55,6 +58,17 @@ app.register_blueprint(api_bp)
 @app.route('/')
 def index():
     return jsonify({
-        "message": "ShopCrawl API is running",
+        "message": "Blue Cart Marketplace API is running",
         "status": "success"
     })
+
+# Add a test route to verify database connectivity
+@app.route('/api/test_db', methods=['GET'])
+def test_db():
+    try:
+        with app.app_context():
+            # Test database connection
+            result = db.session.execute('SELECT 1').scalar()
+            return jsonify({"message": "Database connection successful", "result": result}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
