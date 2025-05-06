@@ -1,6 +1,6 @@
 // API service for making requests to the backend
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'http://localhost:5000/api';
 
 // Get auth token from localStorage
 const getToken = () => {
