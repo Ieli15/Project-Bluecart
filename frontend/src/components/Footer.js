@@ -9,9 +9,9 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-section about">
-            <h3>About ShopCrawl</h3>
+            <h3>About BlueCart</h3>
             <p>
-              ShopCrawl helps you find the best deals across multiple e-commerce sites
+              BlueCart helps you find the best deals across multiple e-commerce sites
               by analyzing prices, ratings, shipping costs, and more using our
               proprietary MB/CB analysis.
             </p>
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} ShopCrawl. All Rights Reserved.</p>
+          <p>&copy; {currentYear} BlueCart. All Rights Reserved.</p>
           <div className="social-icons">
             <a href="https://facebook.com" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com" aria-label="Twitter"><i className="fab fa-twitter"></i></a>

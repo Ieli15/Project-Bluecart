@@ -32,7 +32,7 @@ const Home = () => {
       </div>
       
       <div className="features-section">
-        <h2>Why Choose ShopCrawl</h2>
+        <h2>Why Choose BlueCart</h2>
         <div className="features-grid">
           <div className="feature-card">
             <div className="feature-icon">
