@@ -39,14 +39,14 @@ const Home = () => {
               <i className="fas fa-balance-scale"></i>
             </div>
             <h3>Advanced MB/CB Analysis</h3>
-            <p>Our proprietary algorithm analyzes Marginal Benefit and Cost Benefit to find the best value products.</p>
+            <p>Our proprietary algorithm analyzes Marginal Benefit and Cost Benefit to find the best value of products.</p>
           </div>
           
           <div className="feature-card">
             <div className="feature-icon">
               <i className="fas fa-search-dollar"></i>
             </div>
-            <h3>Multi-store Search</h3>
+            <h3>Multi-Store Search</h3>
             <p>Search and compare products across all major e-commerce platforms in one place.</p>
           </div>
           
