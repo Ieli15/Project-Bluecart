@@ -3,6 +3,6 @@ import routes
 import auth
 import api
 
+# Ensure the app instance is exposed for gunicorn
 if __name__ == "__main__":
-    with app.app_context():  # Ensure app context is globally active
-        app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(debug=True)
