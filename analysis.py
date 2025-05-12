@@ -1,68 +1,49 @@
 from utils import clean_price, normalize_rating, get_store_reputation_score
 
+# Updated MB and CB formulas based on user-provided computations
 def calculate_mb_cb(product):
     """
     Calculate Marginal Benefit (MB) and Cost Benefit (CB) scores for a product
-    
-    MB formula: Higher is better
-    - Product rating (weighted)
-    - Store reputation (weighted)
-    - Inverse of shipping cost (weighted)
-    
-    CB formula: Higher is better
-    - Inverse of price (weighted)
-    - Inverse of shipping cost (weighted)
+
+    MB formula:
+    MB = (R * log(N+1)) * M / (C + D)
+
+    CB formula:
+    CB = MB / (C + D)
+
+    Where:
+    R = Rating
+    N = Number of ratings
+    M = Mode of payment factor (1.1 for Pay after delivery, 1.0 for Pay before)
+    C = Product cost
+    D = Delivery cost
     """
-    # Extract and normalize product data
-    price = float(product.get('price', 0))
-    rating = normalize_rating(product.get('rating', 0))
-    shipping_cost = float(product.get('shipping_cost', 0))
-    store = product.get('store', '')
-    
-    # Get store reputation score (0-10)
-    store_reputation = get_store_reputation_score(store)
-    
-    # Define weights for various factors
-    WEIGHT_PRICE = 0.6
-    WEIGHT_RATING = 0.3
-    WEIGHT_SHIPPING = 0.2
-    WEIGHT_STORE_REPUTATION = 0.1
-    
-    # Calculate Marginal Benefit (MB)
-    # Scale each component to be between 0-1 (higher is better)
-    normalized_rating = rating / 5.0  # assuming rating is on a 0-5 scale
-    normalized_store_reputation = store_reputation / 10.0
-    
-    # For shipping cost, lower is better, so we inverse it (1 / (1 + shipping_cost))
-    # This ensures that free shipping gets a score of 1, and higher shipping costs get lower scores
-    normalized_shipping = 1 / (1 + shipping_cost)
-    
-    mb_score = (
-        (normalized_rating * WEIGHT_RATING) +
-        (normalized_store_reputation * WEIGHT_STORE_REPUTATION) +
-        (normalized_shipping * WEIGHT_SHIPPING)
-    )
-    
-    # Calculate Cost Benefit (CB)
-    # For price, lower is better, but we need to normalize it
-    # Since price ranges widely, we use a logarithmic scaling
-    # First, ensure price is not zero
-    price = max(price, 0.01)
-    
-    # Inverse log scaling: 1 / log(1 + price)
-    # This gives higher scores to lower prices
-    normalized_price = 1 / (1 + price)
-    
-    cb_score = (
-        (normalized_price * WEIGHT_PRICE) +
-        (normalized_shipping * WEIGHT_SHIPPING)
-    )
-    
-    # Scale scores to be 0-100 for easier interpretation
-    mb_score = round(mb_score * 100, 2)
-    cb_score = round(cb_score * 100, 2)
-    
-    return mb_score, cb_score
+    import math
+
+    # Extract product attributes
+    R = float(product.get('rating', 0))
+    N = int(product.get('num_ratings', 0))
+    M = 1.1 if product.get('payment_mode', '').lower() == 'pay after delivery' else 1.0
+    C = float(product.get('price', 0))
+    D = float(product.get('delivery_cost', 0))
+
+    # Calculate MB
+    try:
+        MB = (R * math.log(N + 1)) * M / (C + D)
+    except ZeroDivisionError:
+        MB = 0
+
+    # Calculate CB
+    try:
+        CB = MB / (C + D)
+    except ZeroDivisionError:
+        CB = 0
+
+    # Scale scores for easier interpretation
+    MB = round(MB, 6)
+    CB = round(CB, 6)
+
+    return MB, CB
 
 def calculate_optimal_purchase_combination(products):
     """

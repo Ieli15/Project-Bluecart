@@ -54,27 +54,6 @@ def update_profile():
     
     return jsonify({"message": "Profile updated successfully"}), 200
 
-# Get search history
-@app.route('/api/history', methods=['GET'])
-@jwt_required()
-def get_history():
-    current_user_id = get_jwt_identity()
-    
-    # Get pagination parameters
-    page = request.args.get('page', 1, type=int)
-    per_page = request.args.get('per_page', 10, type=int)
-    
-    history = SearchHistory.query.filter_by(user_id=current_user_id) \
-                                .order_by(SearchHistory.timestamp.desc()) \
-                                .paginate(page=page, per_page=per_page)
-    
-    return jsonify({
-        "history": [item.to_dict() for item in history.items],
-        "total": history.total,
-        "pages": history.pages,
-        "current_page": history.page
-    }), 200
-
 # Get specific search result
 @app.route('/api/history/<int:search_id>', methods=['GET'])
 @jwt_required()

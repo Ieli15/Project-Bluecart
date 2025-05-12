@@ -1,0 +1,4064 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "MacBook Pro 256GB",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 523.53,
+      "rating": 4.9,
+      "delivery_cost": 15.63,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Not worth the price.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "MacBook Pro 256GB",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 1170.94,
+      "rating": 4.8,
+      "delivery_cost": 20.98,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Works perfectly!",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "MacBook Pro 16GB RAM",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 1784.09,
+      "rating": 4.4,
+      "delivery_cost": 11.5,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "MacBook Pro 512GB SSD",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 2077.77,
+      "rating": 4.4,
+      "delivery_cost": 5.94,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "MacBook Pro 128GB",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 579.56,
+      "rating": 3.8,
+      "delivery_cost": 5.97,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "MacBook Pro 512GB SSD",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 2072.36,
+      "rating": 3.9,
+      "delivery_cost": 9.86,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "MacBook Pro 512GB SSD",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 743.73,
+      "rating": 4.8,
+      "delivery_cost": 12.83,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Could be better.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "MacBook Pro 128GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 1295.9,
+      "rating": 4.6,
+      "delivery_cost": 28.17,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Not worth the price.",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Not worth the price.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "MacBook Pro 16GB RAM",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 1652.33,
+      "rating": 4.5,
+      "delivery_cost": 17.4,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Amazing value for money.",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Works perfectly!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "MacBook Pro 128GB",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 699.1,
+      "rating": 4.5,
+      "delivery_cost": 6.48,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "John Doe",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "MacBook Pro 256GB",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 610.54,
+      "rating": 3.7,
+      "delivery_cost": 26.73,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "MacBook Pro 256GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 2022.61,
+      "rating": 4.0,
+      "delivery_cost": 9.44,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Could be better.",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Received in good condition.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "MacBook Pro 128GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 1719.28,
+      "rating": 4.8,
+      "delivery_cost": 6.03,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "John Doe",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "MacBook Pro 16GB RAM",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 1087.35,
+      "rating": 4.6,
+      "delivery_cost": 19.05,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "MacBook Pro 512GB SSD",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 860.38,
+      "rating": 4.6,
+      "delivery_cost": 17.1,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Works perfectly!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "MacBook Pro 512GB SSD",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 720.57,
+      "rating": 3.7,
+      "delivery_cost": 7.31,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Works perfectly!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "MacBook Pro 512GB SSD",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 2001.41,
+      "rating": 4.0,
+      "delivery_cost": 29.26,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Amazing value for money.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "MacBook Pro 128GB",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 1085.59,
+      "rating": 4.4,
+      "delivery_cost": 20.45,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "MacBook Pro 16GB RAM",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 2053.96,
+      "rating": 4.9,
+      "delivery_cost": 10.21,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Amazing value for money.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "MacBook Pro 16GB RAM",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 1996.05,
+      "rating": 4.4,
+      "delivery_cost": 11.5,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHdDQWDUhsHLC_sOFZN6kTL8c2ya1VrMCEf9DtiU28qxcwlljkqqRJ39yhlEBpgXM50qX4vOgIT3nEZKCU8XHYaYMiivD5O13LXB6wZlCkDu-bF1LTtVDZE16koPRdqQ&usqp=CAc",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Not worth the price.",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "HP Spectre x360 128GB",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 1639.86,
+      "rating": 3.8,
+      "delivery_cost": 12.0,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "John Doe",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "HP Spectre x360 512GB SSD",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 2246.58,
+      "rating": 4.7,
+      "delivery_cost": 24.75,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Works perfectly!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "HP Spectre x360 128GB",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 1385.69,
+      "rating": 4.9,
+      "delivery_cost": 9.28,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "HP Spectre x360 128GB",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 896.88,
+      "rating": 4.1,
+      "delivery_cost": 12.58,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "HP Spectre x360 16GB RAM",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 326.73,
+      "rating": 4.2,
+      "delivery_cost": 16.2,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "John Doe",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "HP Spectre x360 512GB SSD",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 1573.66,
+      "rating": 4.7,
+      "delivery_cost": 20.79,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "HP Spectre x360 128GB",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 1150.26,
+      "rating": 4.5,
+      "delivery_cost": 26.89,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "HP Spectre x360 512GB SSD",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 678.44,
+      "rating": 4.6,
+      "delivery_cost": 10.03,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Could be better.",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "HP Spectre x360 512GB SSD",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 1586.65,
+      "rating": 4.0,
+      "delivery_cost": 29.44,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Not worth the price.",
+          "rating": 3
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Could be better.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "HP Spectre x360 128GB",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 1620.49,
+      "rating": 3.5,
+      "delivery_cost": 22.51,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "HP Spectre x360 256GB",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 1158.28,
+      "rating": 3.6,
+      "delivery_cost": 22.09,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Excellent product!",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "HP Spectre x360 256GB",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 327.14,
+      "rating": 4.5,
+      "delivery_cost": 10.7,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Not worth the price.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Could be better.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "HP Spectre x360 256GB",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 603.86,
+      "rating": 3.6,
+      "delivery_cost": 15.38,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Received in good condition.",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Received in good condition.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "HP Spectre x360 128GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 423.37,
+      "rating": 3.8,
+      "delivery_cost": 6.82,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Not worth the price.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "HP Spectre x360 16GB RAM",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 2098.05,
+      "rating": 4.7,
+      "delivery_cost": 26.04,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Could be better.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "HP Spectre x360 512GB SSD",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 1257.87,
+      "rating": 3.8,
+      "delivery_cost": 29.17,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Received in good condition.",
+          "rating": 3
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "HP Spectre x360 512GB SSD",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 1497.92,
+      "rating": 4.5,
+      "delivery_cost": 13.27,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Not worth the price.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "HP Spectre x360 512GB SSD",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 1734.22,
+      "rating": 4.3,
+      "delivery_cost": 7.34,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "John Doe",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Excellent product!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "HP Spectre x360 256GB",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 2422.55,
+      "rating": 4.8,
+      "delivery_cost": 23.54,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Received in good condition.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "HP Spectre x360 256GB",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 2343.12,
+      "rating": 4.7,
+      "delivery_cost": 26.28,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08961291.png?imdensity=1&impolicy=Png_Res",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Could be better.",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 3
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Dell XPS 13 256GB",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 1572.67,
+      "rating": 4.4,
+      "delivery_cost": 14.46,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/81EDCIjlo7L._AC_SX679_.jpg",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Dell XPS 13 16GB RAM",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 2204.35,
+      "rating": 4.6,
+      "delivery_cost": 13.88,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71n4x0aCRiL._AC_SX679_.jpg",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Amazing value for money.",
+          "rating": 5
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Dell XPS 13 256GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 2009.08,
+      "rating": 4.2,
+      "delivery_cost": 9.69,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71n4x0aCRiL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Not worth the price.",
+          "rating": 3
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Received in good condition.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Dell XPS 13 512GB SSD",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 633.36,
+      "rating": 4.7,
+      "delivery_cost": 24.19,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71n4x0aCRiL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Received in good condition.",
+          "rating": 3
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Could be better.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Dell XPS 13 128GB",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 1623.17,
+      "rating": 3.8,
+      "delivery_cost": 26.29,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/81EDCIjlo7L._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Amazing value for money.",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Dell XPS 13 256GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 1518.24,
+      "rating": 4.1,
+      "delivery_cost": 23.45,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Could be better.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Dell XPS 13 16GB RAM",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 417.8,
+      "rating": 4.4,
+      "delivery_cost": 22.75,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71n4x0aCRiL._AC_SX679_.jpg",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Not worth the price.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Dell XPS 13 16GB RAM",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 890.11,
+      "rating": 3.8,
+      "delivery_cost": 7.4,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/81EDCIjlo7L._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Dell XPS 13 128GB",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 872.62,
+      "rating": 3.8,
+      "delivery_cost": 24.69,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Dell XPS 13 16GB RAM",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 1424.99,
+      "rating": 3.7,
+      "delivery_cost": 29.06,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Dell XPS 13 128GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 1808.1,
+      "rating": 3.8,
+      "delivery_cost": 13.13,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/81EDCIjlo7L._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Not worth the price.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Dell XPS 13 256GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 1578.59,
+      "rating": 4.4,
+      "delivery_cost": 21.14,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/81EDCIjlo7L._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Received in good condition.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Dell XPS 13 16GB RAM",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 461.38,
+      "rating": 4.6,
+      "delivery_cost": 19.47,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Excellent product!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Dell XPS 13 256GB",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 1715.96,
+      "rating": 4.2,
+      "delivery_cost": 22.07,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/81EDCIjlo7L._AC_SX679_.jpg",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Works perfectly!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Dell XPS 13 128GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 2252.74,
+      "rating": 3.6,
+      "delivery_cost": 29.53,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/81EDCIjlo7L._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Dell XPS 13 512GB SSD",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 1619.26,
+      "rating": 4.1,
+      "delivery_cost": 10.91,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71n4x0aCRiL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 3
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Could be better.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Dell XPS 13 16GB RAM",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 2293.6,
+      "rating": 3.8,
+      "delivery_cost": 10.38,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/81EDCIjlo7L._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Could be better.",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Could be better.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Dell XPS 13 512GB SSD",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 1619.12,
+      "rating": 4.5,
+      "delivery_cost": 23.15,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Amazing value for money.",
+          "rating": 5
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Could be better.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Could be better.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Dell XPS 13 16GB RAM",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 2280.86,
+      "rating": 4.6,
+      "delivery_cost": 28.12,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/81EDCIjlo7L._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Could be better.",
+          "rating": 3
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Dell XPS 13 128GB",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 2020.34,
+      "rating": 4.2,
+      "delivery_cost": 8.09,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Received in good condition.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Lenovo ThinkPad X1 256GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 1295.31,
+      "rating": 4.9,
+      "delivery_cost": 26.55,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Not worth the price.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Lenovo ThinkPad X1 16GB RAM",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 652.92,
+      "rating": 3.6,
+      "delivery_cost": 11.87,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Not worth the price.",
+          "rating": 3
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Could be better.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Lenovo ThinkPad X1 128GB",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 1536.38,
+      "rating": 3.9,
+      "delivery_cost": 29.87,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Not worth the price.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Lenovo ThinkPad X1 512GB SSD",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 2289.6,
+      "rating": 4.9,
+      "delivery_cost": 19.6,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Lenovo ThinkPad X1 128GB",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 1497.45,
+      "rating": 3.5,
+      "delivery_cost": 21.54,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Not worth the price.",
+          "rating": 3
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Lenovo ThinkPad X1 128GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 469.6,
+      "rating": 3.7,
+      "delivery_cost": 27.87,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Lenovo ThinkPad X1 512GB SSD",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 2469.43,
+      "rating": 4.2,
+      "delivery_cost": 10.79,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Lenovo ThinkPad X1 16GB RAM",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 711.8,
+      "rating": 4.4,
+      "delivery_cost": 17.1,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Lenovo ThinkPad X1 16GB RAM",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 2488.68,
+      "rating": 4.3,
+      "delivery_cost": 9.93,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Could be better.",
+          "rating": 3
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Lenovo ThinkPad X1 128GB",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 2011.3,
+      "rating": 3.7,
+      "delivery_cost": 16.31,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "John Doe",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Lenovo ThinkPad X1 512GB SSD",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 1859.87,
+      "rating": 4.6,
+      "delivery_cost": 16.92,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 3
+        },
+        {
+          "user": "John Doe",
+          "comment": "Could be better.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Lenovo ThinkPad X1 256GB",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 1191.27,
+      "rating": 3.7,
+      "delivery_cost": 11.56,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Could be better.",
+          "rating": 3
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Excellent product!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Lenovo ThinkPad X1 16GB RAM",
+      "category": "Laptops",
+      "platform": "eBay",
+      "price": 651.71,
+      "rating": 4.9,
+      "delivery_cost": 24.43,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Lenovo ThinkPad X1 512GB SSD",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 1198.1,
+      "rating": 3.9,
+      "delivery_cost": 14.26,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Received in good condition.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Lenovo ThinkPad X1 512GB SSD",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 2376.51,
+      "rating": 4.4,
+      "delivery_cost": 17.14,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Lenovo ThinkPad X1 128GB",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 2122.08,
+      "rating": 4.1,
+      "delivery_cost": 21.29,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Lenovo ThinkPad X1 16GB RAM",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 2346.67,
+      "rating": 4.1,
+      "delivery_cost": 10.71,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Not worth the price.",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Lenovo ThinkPad X1 16GB RAM",
+      "category": "Laptops",
+      "platform": "Alibaba",
+      "price": 1350.86,
+      "rating": 3.9,
+      "delivery_cost": 19.36,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Lenovo ThinkPad X1 128GB",
+      "category": "Laptops",
+      "platform": "Shopify",
+      "price": 2041.1,
+      "rating": 3.9,
+      "delivery_cost": 21.14,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Could be better.",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Lenovo ThinkPad X1 16GB RAM",
+      "category": "Laptops",
+      "platform": "Amazon",
+      "price": 2418.61,
+      "rating": 4.6,
+      "delivery_cost": 6.69,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://p3-ofp.static.pub//fes/cms/2024/07/05/168i3xy73rq6jkpzcjy7c28crg80du921800.png",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Excellent product!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Samsung Galaxy A51 128GB",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 1528.26,
+      "rating": 4.5,
+      "delivery_cost": 25.4,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Not worth the price.",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Not worth the price.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Samsung Galaxy A51 512GB SSD",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1888.95,
+      "rating": 4.2,
+      "delivery_cost": 13.77,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 3
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Samsung Galaxy A51 16GB RAM",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1076.85,
+      "rating": 4.7,
+      "delivery_cost": 8.35,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "John Doe",
+          "comment": "Amazing value for money.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Samsung Galaxy A51 512GB SSD",
+      "category": "Smartphones",
+      "platform": "Shopify",
+      "price": 1708.38,
+      "rating": 3.7,
+      "delivery_cost": 22.11,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Could be better.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Samsung Galaxy A51 256GB",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1098.31,
+      "rating": 4.2,
+      "delivery_cost": 11.48,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Could be better.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Samsung Galaxy A51 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 507.96,
+      "rating": 3.6,
+      "delivery_cost": 26.94,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Samsung Galaxy A51 256GB",
+      "category": "Smartphones",
+      "platform": "Shopify",
+      "price": 393.36,
+      "rating": 3.6,
+      "delivery_cost": 25.86,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Samsung Galaxy A51 128GB",
+      "category": "Smartphones",
+      "platform": "Shopify",
+      "price": 1707.66,
+      "rating": 3.6,
+      "delivery_cost": 16.92,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Samsung Galaxy A51 128GB",
+      "category": "Smartphones",
+      "platform": "Shopify",
+      "price": 1758.13,
+      "rating": 4.2,
+      "delivery_cost": 7.62,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Samsung Galaxy A51 256GB",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 2210.85,
+      "rating": 4.4,
+      "delivery_cost": 21.22,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Samsung Galaxy A51 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 1858.81,
+      "rating": 3.7,
+      "delivery_cost": 29.52,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Works perfectly!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Samsung Galaxy A51 16GB RAM",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 573.45,
+      "rating": 4.2,
+      "delivery_cost": 22.73,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Excellent product!",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Samsung Galaxy A51 128GB",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 383.39,
+      "rating": 4.2,
+      "delivery_cost": 5.66,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Works perfectly!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Samsung Galaxy A51 256GB",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1871.1,
+      "rating": 4.8,
+      "delivery_cost": 23.19,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Samsung Galaxy A51 128GB",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 1423.85,
+      "rating": 4.6,
+      "delivery_cost": 18.82,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Samsung Galaxy A51 128GB",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 2164.47,
+      "rating": 4.2,
+      "delivery_cost": 9.16,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Samsung Galaxy A51 256GB",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 782.18,
+      "rating": 4.9,
+      "delivery_cost": 22.24,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 3
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Could be better.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Samsung Galaxy A51 128GB",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 1328.94,
+      "rating": 4.4,
+      "delivery_cost": 27.38,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Samsung Galaxy A51 128GB",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 549.34,
+      "rating": 4.2,
+      "delivery_cost": 17.52,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Received in good condition.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Samsung Galaxy A51 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Shopify",
+      "price": 2066.96,
+      "rating": 3.5,
+      "delivery_cost": 21.03,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://image-us.samsung.com/SamsungUS/home/mobile/galaxy-a51/080620/A51_Crush_Black_D.jpg.jpg?$cm-g-primary-selcection-jpg$",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Amazing value for money.",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "iPhone 12 128GB",
+      "category": "Smartphones",
+      "platform": "Shopify",
+      "price": 950.22,
+      "rating": 4.7,
+      "delivery_cost": 12.01,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "iPhone 12 512GB SSD",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1410.94,
+      "rating": 4.0,
+      "delivery_cost": 18.23,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "iPhone 12 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Shopify",
+      "price": 912.29,
+      "rating": 4.2,
+      "delivery_cost": 22.1,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Could be better.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "iPhone 12 512GB SSD",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 334.33,
+      "rating": 4.2,
+      "delivery_cost": 15.48,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "iPhone 12 512GB SSD",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 1244.77,
+      "rating": 4.3,
+      "delivery_cost": 15.38,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "iPhone 12 512GB SSD",
+      "category": "Smartphones",
+      "platform": "Shopify",
+      "price": 1695.8,
+      "rating": 4.6,
+      "delivery_cost": 28.56,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Could be better.",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "iPhone 12 16GB RAM",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1764.25,
+      "rating": 4.2,
+      "delivery_cost": 6.59,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "iPhone 12 128GB",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 1510.01,
+      "rating": 4.9,
+      "delivery_cost": 25.34,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "name": "iPhone 12 256GB",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 1275.34,
+      "rating": 4.6,
+      "delivery_cost": 8.67,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "John Doe",
+          "comment": "Not worth the price.",
+          "rating": 3
+        },
+        {
+          "user": "John Doe",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "iPhone 12 128GB",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 914.14,
+      "rating": 3.6,
+      "delivery_cost": 23.34,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 3
+        },
+        {
+          "user": "John Doe",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "iPhone 12 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 2204.9,
+      "rating": 3.8,
+      "delivery_cost": 18.97,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        },
+        {
+          "user": "John Doe",
+          "comment": "Received in good condition.",
+          "rating": 3
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Amazing value for money.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "iPhone 12 512GB SSD",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 1985.54,
+      "rating": 4.2,
+      "delivery_cost": 24.91,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "iPhone 12 256GB",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 882.99,
+      "rating": 3.9,
+      "delivery_cost": 10.79,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Could be better.",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Works perfectly!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "iPhone 12 128GB",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1979.58,
+      "rating": 5.0,
+      "delivery_cost": 12.99,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "iPhone 12 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 897.0,
+      "rating": 4.0,
+      "delivery_cost": 13.79,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Could be better.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "iPhone 12 512GB SSD",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 2438.93,
+      "rating": 3.7,
+      "delivery_cost": 24.25,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "iPhone 12 256GB",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1281.5,
+      "rating": 4.9,
+      "delivery_cost": 5.84,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Diana Prince",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Works perfectly!",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "iPhone 12 256GB",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 1789.08,
+      "rating": 4.4,
+      "delivery_cost": 6.31,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "iPhone 12 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 2407.02,
+      "rating": 5.0,
+      "delivery_cost": 27.62,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Could be better.",
+          "rating": 3
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "name": "iPhone 12 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 492.38,
+      "rating": 4.0,
+      "delivery_cost": 8.88,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "OnePlus 9 128GB",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1090.78,
+      "rating": 4.0,
+      "delivery_cost": 9.4,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Could be better.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "OnePlus 9 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Shopify",
+      "price": 2303.02,
+      "rating": 4.7,
+      "delivery_cost": 11.08,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Amazing value for money.",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "OnePlus 9 512GB SSD",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 548.54,
+      "rating": 4.4,
+      "delivery_cost": 26.42,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 3
+        },
+        {
+          "user": "Diana Prince",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        },
+        {
+          "user": "John Doe",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "OnePlus 9 256GB",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 2168.73,
+      "rating": 4.8,
+      "delivery_cost": 15.91,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Amazing value for money.",
+          "rating": 3
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "OnePlus 9 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 1434.31,
+      "rating": 4.7,
+      "delivery_cost": 20.27,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Amazing value for money.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "name": "OnePlus 9 128GB",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1657.64,
+      "rating": 4.3,
+      "delivery_cost": 14.75,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "name": "OnePlus 9 512GB SSD",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 1413.31,
+      "rating": 4.4,
+      "delivery_cost": 26.13,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Not worth the price.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "name": "OnePlus 9 128GB",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 1680.41,
+      "rating": 3.7,
+      "delivery_cost": 13.41,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Works perfectly!",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "name": "OnePlus 9 512GB SSD",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1636.61,
+      "rating": 4.5,
+      "delivery_cost": 20.18,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "OnePlus 9 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 565.06,
+      "rating": 3.7,
+      "delivery_cost": 26.61,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "OnePlus 9 256GB",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1162.59,
+      "rating": 3.9,
+      "delivery_cost": 14.44,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Bob Lee",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "OnePlus 9 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Shopify",
+      "price": 1045.21,
+      "rating": 5.0,
+      "delivery_cost": 18.71,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://cdn.shopify.com/static/shopify-favicon.png",
+      "reviews": [
+        {
+          "user": "Carlos Mendez",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Not worth the price.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "OnePlus 9 128GB",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 993.3,
+      "rating": 3.6,
+      "delivery_cost": 7.24,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        },
+        {
+          "user": "John Doe",
+          "comment": "Works perfectly!",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Works perfectly!",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "OnePlus 9 512GB SSD",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 496.67,
+      "rating": 3.6,
+      "delivery_cost": 5.89,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Jane Smith",
+          "comment": "Excellent product!",
+          "rating": 5
+        },
+        {
+          "user": "Bob Lee",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "John Doe",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "OnePlus 9 128GB",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 1007.67,
+      "rating": 3.5,
+      "delivery_cost": 22.78,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Excellent product!",
+          "rating": 4
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 3
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "OnePlus 9 512GB SSD",
+      "category": "Smartphones",
+      "platform": "eBay",
+      "price": 761.87,
+      "rating": 4.0,
+      "delivery_cost": 10.75,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Ethan Hunt",
+          "comment": "Works perfectly!",
+          "rating": 4
+        },
+        {
+          "user": "Jane Smith",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "OnePlus 9 256GB",
+      "category": "Smartphones",
+      "platform": "Amazon",
+      "price": 441.87,
+      "rating": 4.6,
+      "delivery_cost": 7.16,
+      "payment_mode": "Pay after delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "comment": "Excellent product!",
+          "rating": 3
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        },
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Would definitely recommend.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "OnePlus 9 128GB",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 927.45,
+      "rating": 4.8,
+      "delivery_cost": 6.73,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Fiona Gallagher",
+          "comment": "Received in good condition.",
+          "rating": 5
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Would definitely recommend.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Excellent product!",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "name": "OnePlus 9 16GB RAM",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 1066.66,
+      "rating": 4.2,
+      "delivery_cost": 19.54,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "Ethan Hunt",
+          "comment": "Not worth the price.",
+          "rating": 3
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Very satisfied with the purchase.",
+          "rating": 3
+        },
+        {
+          "user": "John Doe",
+          "comment": "Received in good condition.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "OnePlus 9 512GB SSD",
+      "category": "Smartphones",
+      "platform": "Alibaba",
+      "price": 716.83,
+      "rating": 3.9,
+      "delivery_cost": 23.99,
+      "payment_mode": "Pay before delivery",
+      "image_url": "https://m.media-amazon.com/images/I/61fy+u9uqPL._AC_SX679_.jpg",
+      "platform_logo": "https://logo.clearbit.com/alibaba.com",
+      "reviews": [
+        {
+          "user": "John Doe",
+          "comment": "Received in good condition.",
+          "rating": 4
+        },
+        {
+          "user": "Carlos Mendez",
+          "comment": "Could be better.",
+          "rating": 4
+        },
+        {
+          "user": "Alice Johnson",
+          "comment": "Not worth the price.",
+          "rating": 4
+        }
+      ]
+    }
+  ]
+}

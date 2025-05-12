@@ -42,7 +42,7 @@
 
 .site-logos img {
   height: 30px;
-  filter: brightness(0) invert(1);
+  filter: none; /* Remove brightness and invert filters to display original colors */
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }

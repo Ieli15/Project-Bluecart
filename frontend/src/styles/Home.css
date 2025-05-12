@@ -59,13 +59,13 @@
   max-width: 120px;
   max-height: 60px;
   margin: 0 1rem;
-  filter: grayscale(100%);
-  opacity: 0.7;
+  filter: none !important; /* Ensure no grayscale is applied */
+  opacity: 1 !important; /* Ensure full visibility */
   transition: all 0.3s ease;
 }
 
 .site-logo:hover {
-  filter: grayscale(0%);
+  filter: none; /* Remove grayscale filter on hover */
   opacity: 1;
 }
 

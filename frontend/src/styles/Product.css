@@ -195,7 +195,11 @@
 }
 
 .product-card {
-  margin-bottom: 1.5rem;
+  max-width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .comparison-controls {
@@ -369,6 +373,7 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  line-clamp: 2;
 }
 
 .product-link:hover {
@@ -434,4 +439,16 @@
 
 .loading-container p {
   color: var(--gray-dark);
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 10px;
+}
+
+.platform-logo {
+  width: 40px;
+  height: auto;
 }

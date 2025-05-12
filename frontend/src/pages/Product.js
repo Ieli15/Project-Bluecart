@@ -111,16 +111,7 @@ const Product = () => {
               </p>
             </div>
           )}
-          
-          <div className="col-lg-3 filter-column">
-            {searchResults && searchResults.length > 0 && (
-              <FilterPanel 
-                products={searchResults}
-                onFilterChange={handleFilterChange}
-              />
-            )}
-          </div>
-          
+
           <div className="col-lg-9 product-results-column">
             {isLoading ? (
               <div className="loading-container">
