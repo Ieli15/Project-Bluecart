@@ -40,6 +40,17 @@ def search_products():
     # Sort results by MB/CB score (higher is better)
     results.sort(key=lambda x: (x.get('mb_score', 0) + x.get('cb_score', 0)), reverse=True)
 
+    # Save search to history if user is authenticated
+    user_id = get_jwt_identity()
+    if user_id:
+        history = SearchHistory(
+            user_id=user_id,
+            query=query,
+            results=results
+        )
+        db.session.add(history)
+        db.session.commit()
+
     return jsonify({
         "query": query,
         "results": results,

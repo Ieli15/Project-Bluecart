@@ -72,15 +72,11 @@ def get_search_result(search_id):
 @jwt_required()
 def delete_search_result(search_id):
     current_user_id = get_jwt_identity()
-    
-    search = SearchHistory.query.filter_by(id=search_id, user_id=current_user_id).first()
-    
+    search = db.session.query(SearchHistory).filter_by(id=search_id, user_id=current_user_id).first()
     if not search:
         return jsonify({"error": "Search not found"}), 404
-    
     db.session.delete(search)
     db.session.commit()
-    
     return jsonify({"message": "Search history item deleted"}), 200
 
 # Get paginated search history for the current user

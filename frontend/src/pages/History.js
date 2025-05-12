@@ -74,7 +74,7 @@ const History = () => {
     if (!window.confirm('Are you sure you want to delete this search history item?')) {
       return;
     }
-    
+    setError(''); // Clear any previous error
     try {
       const token = localStorage.getItem('token');
       const response = await fetch(`http://localhost:5000/api/history/${id}`, {
@@ -83,13 +83,12 @@ const History = () => {
           'Authorization': `Bearer ${token}`
         }
       });
-      
       if (!response.ok) {
         throw new Error('Failed to delete history item');
       }
-      
       // Refresh history
       fetchHistory(pagination.currentPage);
+      setError(''); // Clear error on success
     } catch (error) {
       setError(error.message);
     }
