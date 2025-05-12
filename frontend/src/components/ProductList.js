@@ -1,55 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import ProductCard from './ProductCard';
 import ComparisonTable from './ComparisonTable';
-import FilterPanel from './FilterPanel';
-import { searchProducts, compareProducts } from '../services/api';
 
 const ProductList = ({ products }) => {
   const [selectedProducts, setSelectedProducts] = useState([]);
   const [showComparison, setShowComparison] = useState(false);
-  const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 10;
-
-  const [filteredProducts, setFilteredProducts] = useState(products);
-  const [filters, setFilters] = useState({});
-
-  useEffect(() => {
-    const fetchFilteredProducts = async () => {
-      try {
-        const response = await searchProducts(filters.query, filters);
-        setFilteredProducts(response.results);
-      } catch (error) {
-        console.error('Error fetching filtered products:', error);
-      }
-    };
-
-    if (filters.query) {
-      fetchFilteredProducts();
-    }
-  }, [filters]);
-
-  useEffect(() => {
-    const fetchComparisonData = async () => {
-      try {
-        const response = await compareProducts(products);
-        setFilteredProducts(response.products);
-      } catch (error) {
-        console.error('Error fetching comparison data:', error);
-      }
-    };
-
-    if (products && products.length > 0) {
-      fetchComparisonData();
-    }
-  }, [products]);
-
-  const handleFilterChange = (newFilters) => {
-    setFilters((prev) => ({ ...prev, ...newFilters }));
-  };
-
-  const totalPages = Math.ceil(filteredProducts.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const currentProducts = filteredProducts.slice(startIndex, startIndex + itemsPerPage);
 
   // Handle adding product to comparison
   const handleAddToCompare = (product) => {
@@ -89,21 +44,8 @@ const ProductList = ({ products }) => {
     setShowComparison(false);
   };
 
-  const handleNextPage = () => {
-    if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
-
-  const handlePreviousPage = () => {
-    if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
-    }
-  };
-
   return (
     <div className="product-list-container">
-      <FilterPanel products={products} onFilterChange={handleFilterChange} />
       {selectedProducts.length > 0 && (
         <div className="comparison-controls">
           <div className="selected-count">
@@ -135,13 +77,13 @@ const ProductList = ({ products }) => {
       )}
       
       <div className="products-grid">
-        {currentProducts.length === 0 ? (
+        {products.length === 0 ? (
           <div className="no-products">
             <i className="fas fa-search"></i>
             <p>No products found. Try a different search.</p>
           </div>
         ) : (
-          currentProducts.map((product, index) => (
+          products.map((product, index) => (
             <ProductCard 
               key={`${product.title}-${product.store}-${index}`}
               product={product}
@@ -152,15 +94,6 @@ const ProductList = ({ products }) => {
             />
           ))
         )}
-      </div>
-      <div className="pagination-controls">
-        <button onClick={handlePreviousPage} disabled={currentPage === 1}>
-          Previous
-        </button>
-        <span>Page {currentPage} of {totalPages}</span>
-        <button onClick={handleNextPage} disabled={currentPage === totalPages}>
-          Next
-        </button>
       </div>
     </div>
   );
