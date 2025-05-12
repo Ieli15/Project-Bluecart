@@ -64,7 +64,8 @@ def index():
         "status": "success"
     })
 
-# Add a test route to verify database connectivity
+
+# Add a test route 
 @app.route('/api/test_db', methods=['GET'])
 def test_db():
     try:

@@ -10,7 +10,7 @@ const ProductCard = ({ product, onCompare }) => {
     }).format(price);
   };
 
-  // Format MB/CB scores
+  // Format MB/CB 
   const formatScore = (score) => {
     if (score === null || score === undefined) return 'N/A';
     return Number.isFinite(score) ? score.toFixed(1) : 'N/A';

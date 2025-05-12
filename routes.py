@@ -67,7 +67,8 @@ def get_search_result(search_id):
     
     return jsonify(search.to_dict()), 200
 
-# Delete search history item
+
+# Delete search history 
 @app.route('/api/history/<int:search_id>', methods=['DELETE'])
 @jwt_required()
 def delete_search_result(search_id):

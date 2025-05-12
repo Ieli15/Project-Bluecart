@@ -9,6 +9,7 @@ const ComparisonTable = ({ products, onClose }) => {
     }).format(price);
   };
 
+  
   // Format scores
   const formatScore = (score) => {
     return score ? score.toFixed(1) : 'N/A';
