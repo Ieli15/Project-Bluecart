@@ -9,7 +9,7 @@ const ProductCard = ({ product, onCompare }) => {
     }).format(price);
   };
 
-  // Format MB/CB scores
+  // Format MB/CB 
   const formatScore = (score) => {
     return score ? score.toFixed(1) : 'N/A';
   };

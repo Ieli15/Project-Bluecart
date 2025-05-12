@@ -38,6 +38,8 @@ class SearchHistory(db.Model):
     timestamp = db.Column(db.DateTime, default=datetime.utcnow)
     
     # Store search results as JSON
+
+    
     results = db.Column(db.JSON, nullable=True)
     
     def to_dict(self):

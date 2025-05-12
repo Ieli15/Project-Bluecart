@@ -17,7 +17,7 @@ export const SearchProvider = ({ children }) => {
       return;
     }
     
-    // Add product to comparison (limit to 4 products)
+    // Add product to comparison 
     if (comparisonProducts.length < 4) {
       setComparisonProducts([...comparisonProducts, product]);
     }

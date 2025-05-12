@@ -22,6 +22,7 @@ const FilterPanel = ({ products, onFilterChange }) => {
         stores: stores
       }));
       
+      
       // Find max price for the range
       const maxPrice = Math.max(...products.map(product => product.price || 0)) + 100;
       setFilters(prev => ({

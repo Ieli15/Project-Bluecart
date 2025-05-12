@@ -6,7 +6,7 @@ const ProductList = ({ products }) => {
   const [selectedProducts, setSelectedProducts] = useState([]);
   const [showComparison, setShowComparison] = useState(false);
 
-  // Handle adding product to comparison
+  // Handle adding product 
   const handleAddToCompare = (product) => {
     // Check if product is already in comparison
     if (selectedProducts.some(p => p.title === product.title && p.store === product.store)) {
