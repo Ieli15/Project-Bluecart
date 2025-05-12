@@ -54,27 +54,6 @@ def update_profile():
     
     return jsonify({"message": "Profile updated successfully"}), 200
 
-# Get search history
-@app.route('/api/history', methods=['GET'])
-@jwt_required()
-def get_history():
-    current_user_id = get_jwt_identity()
-    
-    # Get pagination parameters
-    page = request.args.get('page', 1, type=int)
-    per_page = request.args.get('per_page', 10, type=int)
-    
-    history = SearchHistory.query.filter_by(user_id=current_user_id) \
-                                .order_by(SearchHistory.timestamp.desc()) \
-                                .paginate(page=page, per_page=per_page)
-    
-    return jsonify({
-        "history": [item.to_dict() for item in history.items],
-        "total": history.total,
-        "pages": history.pages,
-        "current_page": history.page
-    }), 200
-
 # Get specific search result
 @app.route('/api/history/<int:search_id>', methods=['GET'])
 @jwt_required()
@@ -94,13 +73,30 @@ def get_search_result(search_id):
 @jwt_required()
 def delete_search_result(search_id):
     current_user_id = get_jwt_identity()
-    
-    search = SearchHistory.query.filter_by(id=search_id, user_id=current_user_id).first()
-    
+    search = db.session.query(SearchHistory).filter_by(id=search_id, user_id=current_user_id).first()
     if not search:
         return jsonify({"error": "Search not found"}), 404
-    
     db.session.delete(search)
     db.session.commit()
-    
     return jsonify({"message": "Search history item deleted"}), 200
+
+# Get paginated search history for the current user
+@app.route('/api/history', methods=['GET'])
+@jwt_required()
+def get_search_history():
+    current_user_id = get_jwt_identity()
+    page = int(request.args.get('page', 1))
+    per_page = int(request.args.get('per_page', 10))
+
+    # Use db.session.query(SearchHistory) to avoid attribute collision
+    query = db.session.query(SearchHistory).filter_by(user_id=current_user_id).order_by(SearchHistory.timestamp.desc())
+    pagination = query.paginate(page=page, per_page=per_page, error_out=False)
+
+    history = [item.to_dict() for item in pagination.items]
+
+    return jsonify({
+        'history': history,
+        'current_page': pagination.page,
+        'pages': pagination.pages,
+        'total': pagination.total
+    }), 200

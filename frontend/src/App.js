@@ -13,6 +13,7 @@ import Profile from './pages/Profile';
 import History from './pages/History';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import ProductDetails from './pages/ProductDetails';
 
 // Styles
 import './styles/App.css';
@@ -40,6 +41,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/product-details/:id" element={<ProductDetails />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route 

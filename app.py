@@ -17,8 +17,7 @@ logging.basicConfig(level=logging.DEBUG)
 class Base(DeclarativeBase):
     pass
 
-# Initialize SQLAlchemy
-# db = SQLAlchemy(model_class=Base)
+
 
 # Create the Flask app
 app = Flask(__name__)
@@ -39,10 +38,9 @@ app.config["JWT_REFRESH_TOKEN_EXPIRES"] = 2592000  # 30 days
 # Initialize extensions
 # Add a log to confirm db.init_app is called
 logging.debug("Initializing SQLAlchemy with Flask app")
-# db.init_app(app)
-# jwt.init_app(app)
+
 init_extensions(app)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # Create database tables
 with app.app_context():
@@ -53,6 +51,7 @@ with app.app_context():
 # Register blueprints
 from auth import auth_bp
 from api import api_bp
+import routes  # Ensure all routes in routes.py are registered
 
 app.register_blueprint(auth_bp)
 app.register_blueprint(api_bp)

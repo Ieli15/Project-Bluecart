@@ -1,15 +1,29 @@
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useState, useContext, useEffect } from 'react';
 
 // Create context
 const SearchContext = createContext();
 
 // Search provider component
 export const SearchProvider = ({ children }) => {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [searchResults, setSearchResults] = useState([]);
+  const [searchQuery, setSearchQuery] = useState(() => {
+    return localStorage.getItem('searchQuery') || '';
+  });
+  const [searchResults, setSearchResults] = useState(() => {
+    const stored = localStorage.getItem('searchResults');
+    return stored ? JSON.parse(stored) : [];
+  });
   const [isLoading, setIsLoading] = useState(false);
   const [comparisonProducts, setComparisonProducts] = useState([]);
-  
+
+  // Persist searchQuery and searchResults to localStorage
+  useEffect(() => {
+    localStorage.setItem('searchQuery', searchQuery);
+  }, [searchQuery]);
+
+  useEffect(() => {
+    localStorage.setItem('searchResults', JSON.stringify(searchResults));
+  }, [searchResults]);
+
   // Add product to comparison
   const addToComparison = (product) => {
     // Check if product is already in comparison

@@ -52,19 +52,13 @@ const FilterPanel = ({ products, onFilterChange }) => {
   };
   
   // Handle store filter change
-  const handleStoreChange = (e, store) => {
-    const isChecked = e.target.checked;
-    let newStores = [...filters.stores];
-    
-    if (isChecked) {
-      newStores.push(store);
-    } else {
-      newStores = newStores.filter(s => s !== store);
-    }
-    
-    setFilters({
-      ...filters,
-      stores: newStores
+  const handleStoreChange = (store) => {
+    setFilters((prev) => {
+      const updatedStores = prev.stores.includes(store)
+        ? prev.stores.filter((s) => s !== store)
+        : [...prev.stores, store];
+      onFilterChange({ stores: updatedStores });
+      return { ...prev, stores: updatedStores };
     });
   };
   
@@ -85,6 +79,10 @@ const FilterPanel = ({ products, onFilterChange }) => {
   // Toggle panel expansion
   const toggleExpand = () => {
     setExpanded(!expanded);
+  };
+
+  const handleFilterChange = () => {
+    onFilterChange(filters);
   };
   
   return (
@@ -139,7 +137,7 @@ const FilterPanel = ({ products, onFilterChange }) => {
                     type="checkbox"
                     id={`store-${store}`}
                     checked={filters.stores.includes(store)}
-                    onChange={(e) => handleStoreChange(e, store)}
+                    onChange={() => handleStoreChange(store)}
                   />
                   <label className="form-check-label" htmlFor={`store-${store}`}>
                     {store}
@@ -186,6 +184,9 @@ const FilterPanel = ({ products, onFilterChange }) => {
           >
             Reset Filters
           </button>
+
+          {/* Apply Filters Button */}
+          <button onClick={handleFilterChange}>Apply Filters</button>
         </div>
       )}
     </div>

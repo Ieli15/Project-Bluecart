@@ -6,6 +6,10 @@ import FilterPanel from '../components/FilterPanel';
 import '../styles/Product.css';
 
 const Product = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }, []);
+
   const { searchResults, isLoading, searchQuery } = useSearch();
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [sortOption, setSortOption] = useState('bestValue');
@@ -77,7 +81,7 @@ const Product = () => {
   const handleSortChange = (e) => {
     const option = e.target.value;
     setSortOption(option);
-    setFilteredProducts(sortProducts(filteredProducts, option));
+    setFilteredProducts(prevProducts => sortProducts(prevProducts, option));
   };
   
   // Update filtered products when search results change
@@ -87,6 +91,13 @@ const Product = () => {
       setFilteredProducts(sorted);
     }
   }, [searchResults, sortOption]);
+
+  // On initial mount, show persisted search results if available
+  useEffect(() => {
+    if (searchResults && searchResults.length > 0) {
+      setFilteredProducts(sortProducts(searchResults, sortOption));
+    }
+  }, []);
 
   return (
     <div className="product-page">
@@ -101,27 +112,23 @@ const Product = () => {
       
       <div className="container">
         <div className="row">
-          {searchQuery && (
-            <div className="search-info">
-              <h2>
-                Results for: <span className="search-query">"{searchQuery}"</span>
-              </h2>
-              <p className="result-count">
-                {filteredProducts.length} {filteredProducts.length === 1 ? 'product' : 'products'} found
-              </p>
-            </div>
-          )}
-          
+          {/* Filter Panel on the left */}
           <div className="col-lg-3 filter-column">
-            {searchResults && searchResults.length > 0 && (
-              <FilterPanel 
-                products={searchResults}
-                onFilterChange={handleFilterChange}
-              />
-            )}
+            <FilterPanel products={searchResults || []} onFilterChange={handleFilterChange} />
           </div>
-          
+
+          {/* Product Results on the right */}
           <div className="col-lg-9 product-results-column">
+            {searchQuery && (
+              <div className="search-info">
+                <h2>
+                  Results for: <span className="search-query">"{searchQuery}"</span>
+                </h2>
+                <p className="result-count">
+                  {filteredProducts.length} {filteredProducts.length === 1 ? 'product' : 'products'} found
+                </p>
+              </div>
+            )}
             {isLoading ? (
               <div className="loading-container">
                 <div className="spinner-border text-primary" role="status">
@@ -163,7 +170,6 @@ const Product = () => {
                     <p>Enter a product name, brand, or category in the search bar above.</p>
                   </div>
                 )}
-                
                 {filteredProducts && filteredProducts.length > 0 && (
                   <ProductList products={filteredProducts} />
                 )}
