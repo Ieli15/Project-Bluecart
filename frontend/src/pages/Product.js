@@ -6,6 +6,10 @@ import FilterPanel from '../components/FilterPanel';
 import '../styles/Product.css';
 
 const Product = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }, []);
+
   const { searchResults, isLoading, searchQuery } = useSearch();
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [sortOption, setSortOption] = useState('bestValue');

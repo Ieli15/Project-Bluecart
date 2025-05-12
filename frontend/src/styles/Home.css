@@ -148,6 +148,23 @@
   flex-wrap: wrap;
 }
 
+/* Center only the first button on mobile, stack vertically */
+@media (max-width: 576px) {
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .cta-buttons .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+.cta-buttons .btn-primary {
+  margin-bottom: 0;
+}
+
 .btn-outline-primary {
   color: var(--white);
   border-color: var(--white);
@@ -159,29 +176,22 @@
   border-color: var(--white);
 }
 
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 2rem;
-  }
-  
-  .hero-subtitle {
-    font-size: 1.1rem;
-  }
-  
-  .site-logo {
-    max-width: 100px;
-    margin: 0.5rem;
-  }
-  
-  .feature-card {
-    padding: 1.5rem;
-  }
-  
-  .cta-section h2 {
-    font-size: 1.75rem;
-  }
-  
-  .cta-section p {
-    font-size: 1rem;
-  }
+.cta-buttons .btn-outline-primary {
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-color: var(--primary-color);
+}
+
+.cta-buttons .btn-outline-primary:hover {
+  background-color: var(--primary-dark);
+  color: var(--white);
+  border-color: var(--primary-dark);
+}
+
+.cta-section h2 {
+  font-size: 1.75rem;
+}
+
+.cta-section p {
+  font-size: 1rem;
 }
