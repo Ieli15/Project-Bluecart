@@ -13,7 +13,7 @@ def calculate_mb_cb(product):
 
     Where:
     R = Rating
-    N = Number of ratings
+    N = Number of ratings (number of reviews/comments)
     M = Mode of payment factor (1.1 for Pay after delivery, 1.0 for Pay before)
     C = Product cost
     D = Delivery cost
@@ -22,7 +22,12 @@ def calculate_mb_cb(product):
 
     # Extract product attributes
     R = float(product.get('rating', 0))
-    N = int(product.get('num_ratings', 0))
+    # Use number of reviews/comments as N
+    reviews = product.get('reviews')
+    if isinstance(reviews, list):
+        N = len(reviews)
+    else:
+        N = 0
     M = 1.1 if product.get('payment_mode', '').lower() == 'pay after delivery' else 1.0
     C = float(product.get('price', 0))
     D = float(product.get('delivery_cost', 0))
@@ -40,8 +45,8 @@ def calculate_mb_cb(product):
         CB = 0
 
     # Scale scores for easier interpretation
-    MB = round(MB, 6)
-    CB = round(CB, 6)
+    MB = round(MB * 1000, 6)
+    CB = round(CB * 1000, 6)
 
     return MB, CB
 

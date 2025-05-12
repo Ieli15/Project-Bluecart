@@ -7,6 +7,7 @@ const ProductDetails = () => {
   const { id } = useParams();
 
   useEffect(() => {
+    window.scrollTo(0, 0); // Always scroll to top on mount
     if (!product) {
       // Fetch product details from the JSON database
       fetch(`/static/products.json`)

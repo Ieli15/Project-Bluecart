@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProductCard = ({ product, onCompare }) => {
   // Format price as currency
@@ -11,19 +12,20 @@ const ProductCard = ({ product, onCompare }) => {
 
   // Format MB/CB scores
   const formatScore = (score) => {
-    return score ? score.toFixed(1) : 'N/A';
+    if (score === null || score === undefined) return 'N/A';
+    return Number.isFinite(score) ? score.toFixed(1) : 'N/A';
   };
 
   return (
-    <div className="product-card">
+    <div className="product-card amazon-style">
       <div className="card">
-        <div className="store-badge">{product.store}</div>
-        
+        {/* Product name above image */}
+        <div className="product-name-amazon">{product.name}</div>
         <div className="card-img-container">
           {product.image_url ? (
             <img 
               src={product.image_url} 
-              className="card-img-top" 
+              className="card-img-top product-image-amazon" 
               alt={product.title} 
               onError={(e) => {
                 e.target.onerror = null;
@@ -37,60 +39,57 @@ const ProductCard = ({ product, onCompare }) => {
             </div>
           )}
         </div>
-        
         <div className="card-body">
-          <h5 className="card-title" title={product.title}>
+          <div className="store-badge-amazon">{product.store}</div>
+          <h5 className="card-title product-title-amazon" title={product.title}>
             {(product.title || '').length > 60 
               ? `${(product.title || '').substring(0, 60)}...` 
               : product.title}
           </h5>
-          
-          <div className="product-price-rating">
-            <div className="price">{formatPrice(product.price)}</div>
-            
-            <div className="rating">
-              <span className="stars">
-                {[...Array(5)].map((_, i) => (
-                  <i 
-                    key={i}
-                    className={`fas fa-star ${i < Math.floor(product.rating) ? 'filled' : ''}`}
-                  ></i>
-                ))}
+          <div className="product-price-rating-amazon">
+            <div className="price-amazon">{formatPrice(product.price)}</div>
+            <div className="rating-amazon">
+              <span className="stars-amazon">
+                {[...Array(5)].map((_, i) => {
+                  if (product.rating >= i + 1) {
+                    return <i key={i} className="fas fa-star star-amazon filled"></i>;
+                  } else if (product.rating > i && product.rating < i + 1) {
+                    return <i key={i} className="fas fa-star-half-alt star-amazon filled"></i>;
+                  } else {
+                    return <i key={i} className="fas fa-star star-amazon"></i>;
+                  }
+                })}
               </span>
-              <span className="rating-value">({product.rating})</span>
+              <span className="rating-value-amazon">{product.rating ? product.rating.toFixed(1) : 'N/A'}</span>
             </div>
           </div>
-          
-          <div className="product-shipping">
-            <span className="shipping-label">Shipping:</span>
-            <span className="shipping-value">
-              {product.shipping_cost === 0 
-                ? 'Free' 
-                : formatPrice(product.shipping_cost)}
-            </span>
+          <div className="product-shipping-amazon">
+            {product.delivery_cost === 0 || product.delivery_cost === '0' ? (
+              <span className="shipping-free-amazon">FREE Shipping</span>
+            ) : (
+              <span className="shipping-cost-amazon">Shipping: {formatPrice(product.delivery_cost)}</span>
+            )}
           </div>
-          
-          <div className="score-container">
+          <div className="score-container-amazon">
             <div className="score mb-score">
-              <span className="score-label">MB Score:</span>
+              <span className="score-label">MB:</span>
               <span className="score-value">{formatScore(product.mb_score)}</span>
             </div>
             <div className="score cb-score">
-              <span className="score-label">CB Score:</span>
+              <span className="score-label">CB:</span>
               <span className="score-value">{formatScore(product.cb_score)}</span>
             </div>
           </div>
-          
-          <div className="card-actions">
-            <a 
-              href={product.url} 
-              className="btn btn-primary view-btn"
-              target="_blank"
-              rel="noopener noreferrer"
+          <div className="card-actions-amazon">
+            <Link 
+              to={{
+                pathname: `/product-details/${product.id}`,
+              }}
+              state={{ product }}
+              className="btn btn-amazon view-btn-amazon"
             >
               View Product
-            </a>
-            
+            </Link>
             <button 
               className="btn btn-outline-primary compare-btn"
               onClick={() => onCompare(product)}

@@ -16,17 +16,6 @@ const Footer = () => {
               proprietary MB/CB analysis.
             </p>
           </div>
-          
-          <div className="footer-section supported-sites">
-            <h3>Supported Sites</h3>
-            <div className="site-logos">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopee_logo.svg" alt="Shopee" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Walmart_logo.svg" alt="Walmart" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" alt="eBay" />
-            </div>
-          </div>
-          
           <div className="footer-section links">
             <h3>Quick Links</h3>
             <ul>
