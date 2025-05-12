@@ -1,0 +1,199 @@
+# Project BlueCart
+
+Welcome to **Project BlueCart**, an innovative marketplace platform that empowers users with advanced product comparison features, real-time data fetching, and robust backend services. The project leverages modern web development technologies to deliver a seamless shopping experience.
+
+---
+
+## Table of Contents
+
+* [Introduction](#introduction)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Installation and Setup](#installation-and-setup)
+* [Usage](#usage)
+* [API Endpoints](#api-endpoints)
+* [Contributing](#contributing)
+* [License](#license)
+
+---
+
+## Introduction
+
+**Project BlueCart** is a collaborative marketplace project designed to enhance online shopping by providing users with:
+
+* Advanced product search and filtering capabilities.
+* A comparison tool for evaluating multiple products.
+* A fully integrated frontend and backend for real-time interactions.
+
+This project is built collaboratively by a team of developers using industry-standard tools and practices.
+
+---
+
+## Features
+
+1. **Product Search**
+
+   * Users can search for products by keywords.
+   * Supports filtering and pagination.
+
+2. **Product Comparison**
+
+   * Allows users to compare up to 4 products at a time.
+   * Displays detailed product attributes side by side.
+
+3. **User-Friendly UI**
+
+   * Built with React for dynamic rendering and responsiveness.
+   * Real-time updates using API calls.
+
+4. **Backend Services**
+
+   * RESTful API built with Flask.
+   * Secure authentication using JSON Web Tokens (JWT).
+
+5. **Database Integration**
+
+   * PostgreSQL database for efficient data storage and retrieval.
+
+---
+
+## Technologies Used
+
+### Frontend:
+
+* React
+* Redux Toolkit (State Management)
+* Tailwind CSS (Styling)
+
+### Backend:
+
+* Python (Flask Framework)
+* PostgreSQL (Database)
+* Flask-Migrate (Database Migrations)
+* Flask-CORS (Cross-Origin Resource Sharing)
+* JSON Web Tokens (JWT) for authentication
+
+### Other Tools:
+
+* Git and GitHub for version control
+* Jest for frontend testing
+* pytest for backend testing
+
+---
+
+## Installation and Setup
+
+### Prerequisites:
+
+* Node.js and npm installed
+* Python (3.8+) installed
+* PostgreSQL installed and running
+* Git installed
+
+### Clone the Repository:
+
+```bash
+# Clone the repository
+$ git clone git@github.com:Ieli15/Project-Bluecart.git
+
+# Navigate to the project directory
+$ cd Project-Bluecart
+```
+
+### Backend Setup:
+
+1. Create and activate a virtual environment:
+
+   ```bash
+   $ python3 -m venv venv
+   $ source venv/bin/activate
+   ```
+
+2. Install backend dependencies:
+
+   ```bash
+   $ pip install -r requirements.txt
+   ```
+
+3. Configure environment variables:
+   Create a `.env` file with the following:
+
+   ```env
+   DATABASE_URL=postgresql://username:password@localhost:5432/bluecart
+   JWT_SECRET_KEY=your_jwt_secret_key
+   ```
+
+4. Initialize the database:
+
+   ```bash
+   $ flask db init
+   $ flask db migrate
+   $ flask db upgrade
+   ```
+
+5. Start the backend server:
+
+   ```bash
+   $ flask run
+   ```
+
+### Frontend Setup:
+
+1. Navigate to the `frontend` directory:
+
+   ```bash
+   $ cd frontend
+   ```
+
+2. Install frontend dependencies:
+
+   ```bash
+   $ npm install
+   ```
+
+3. Start the React development server:
+
+   ```bash
+   $ npm start
+   ```
+
+---
+
+## Usage
+
+1. Open your browser and navigate to:
+
+   * **Frontend**: `http://localhost:3000`
+   * **Backend**: `http://127.0.0.1:5000`
+
+2. Use the search bar to find products.
+
+3. Add products to the comparison tool for detailed evaluation.
+
+---
+
+## API Endpoints
+
+### Base URL:
+
+`http://127.0.0.1:5000`
+
+### Authentication:
+
+* **POST** `/api/auth/login`
+* **POST** `/api/auth/register`
+
+### Products:
+
+* **GET** `/api/products` - Retrieve all products
+* **GET** `/api/products?query=keyword` - Search products by keyword
+
+### History:
+
+* **GET** `/api/history?page=1&per_page=10` - Fetch paginated history of searches
+
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+

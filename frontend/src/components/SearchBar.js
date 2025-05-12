@@ -30,7 +30,8 @@ const SearchBar = ({ homepage = false }) => {
       const data = await response.json();
       setSearchResults(data.results);
       
-      // Navigate to product page if on homepage
+      
+      // Navigate to product 
       if (homepage) {
         navigate('/product');
       }
