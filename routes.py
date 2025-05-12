@@ -82,3 +82,24 @@ def delete_search_result(search_id):
     db.session.commit()
     
     return jsonify({"message": "Search history item deleted"}), 200
+
+# Get paginated search history for the current user
+@app.route('/api/history', methods=['GET'])
+@jwt_required()
+def get_search_history():
+    current_user_id = get_jwt_identity()
+    page = int(request.args.get('page', 1))
+    per_page = int(request.args.get('per_page', 10))
+
+    # Use db.session.query(SearchHistory) to avoid attribute collision
+    query = db.session.query(SearchHistory).filter_by(user_id=current_user_id).order_by(SearchHistory.timestamp.desc())
+    pagination = query.paginate(page=page, per_page=per_page, error_out=False)
+
+    history = [item.to_dict() for item in pagination.items]
+
+    return jsonify({
+        'history': history,
+        'current_page': pagination.page,
+        'pages': pagination.pages,
+        'total': pagination.total
+    }), 200

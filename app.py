@@ -53,6 +53,7 @@ with app.app_context():
 # Register blueprints
 from auth import auth_bp
 from api import api_bp
+import routes  # Ensure all routes in routes.py are registered
 
 app.register_blueprint(auth_bp)
 app.register_blueprint(api_bp)
